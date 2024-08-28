@@ -1,0 +1,27 @@
+Source File	Size	loadResources	load-configure	scan	loadDepInfo	loadInfo	load	generateSnapshots	checkR4R4B	generateNarratives	validate	loadLists	checkConformanceResources	checkConformanceResources2	checkConformanceResources3	generateLogicalMaps	validateExpressions	scanForUsageStats	checkURLsUnique	processProvenanceDetails	generate1	generate2	responsesForQuestionnaire	generateLogicals	makeDependencies	generateExampleZip	generateValidationPack	scanProfilesForR5	scanExamplesForR5
+/fsh-generated/resources/ImplementationGuide-smart.who.int.icvp.json	13313	-	1	0	0	0	0	0	6	67	0	0	0	0	0	0	0	1	0	0	142	101	0	0	0	1	9	0	1
+fsh-generated/resources/CodeSystem-DVCRelationshipStatus.json	565	9	0	0	1	0	0	0	0	12	0	0	0	0	0	0	0	0	0	0	23	2862	0	0	0	0	1	0	0
+fsh-generated/resources/CodeSystem-doseNumber.json	1352	8	0	0	0	0	0	0	0	9	0	0	0	0	0	0	0	0	0	0	31	86	0	0	0	0	0	0	0
+fsh-generated/resources/Questionnaire-Questionnaire-DVCModel.json	27945	14	0	0	0	0	0	0	3	525	0	0	0	0	0	0	0	0	0	0	251	8780	0	0	0	0	5	0	1
+fsh-generated/resources/Questionnaire-Questionnaire-ICVPModel.json	12555	11	1	0	0	0	0	0	1	24	0	0	0	0	0	0	0	0	0	0	154	707	0	0	0	0	7	0	0
+fsh-generated/resources/StructureDefinition-DVC-ImmunizationUvIps.json	3961	8	0	0	0	0	0	79	0	68	0	0	1	0	0	0	0	2	0	0	382	1877	0	0	0	0	15	0	1
+fsh-generated/resources/StructureDefinition-DVCBundle.json	2988	8	0	0	0	0	0	144	0	29	0	0	0	0	0	0	0	2	0	0	536	1133	0	0	0	0	18	1	3
+fsh-generated/resources/StructureDefinition-DVCComposition.json	4785	9	0	0	0	0	0	62	1	55	0	0	0	0	0	0	0	1	0	0	438	513	0	0	0	0	13	0	0
+fsh-generated/resources/StructureDefinition-DVCIPS.json	1447	7	0	0	0	0	0	441	0	106	0	0	1	0	0	0	0	11	0	0	3232	4657	0	0	0	0	101	1	6
+fsh-generated/resources/StructureDefinition-DVCIPSComposition.json	1498	7	0	0	0	0	0	125	0	47	0	0	1	0	0	0	0	5	0	0	1278	1856	0	0	0	0	36	1	4
+fsh-generated/resources/StructureDefinition-DVCPatient.json	3162	8	0	0	0	0	0	64	0	18	0	0	0	0	0	0	0	1	0	0	304	433	0	0	0	0	13	0	0
+fsh-generated/resources/StructureDefinition-DVCPayload.json	6708	9	1	0	0	0	0	58	0	15	0	0	0	0	0	0	0	0	0	0	134	188	0	0	0	0	4	0	1
+fsh-generated/resources/StructureDefinition-ICVPEvent.json	812	7	0	0	0	0	0	634	0	12	0	0	0	0	0	0	0	0	0	0	39	93	0	0	0	0	1	0	0
+fsh-generated/resources/StructureDefinition-ModelDVC.json	3142	8	0	0	0	0	0	0	0	14	0	0	0	0	0	0	0	0	0	0	61	113	0	0	0	0	2	0	0
+fsh-generated/resources/StructureDefinition-ModelICVP.json	1437	7	0	0	0	0	0	0	0	9	0	0	0	0	0	0	0	1	0	0	40	102	0	0	0	0	1	0	0
+fsh-generated/resources/StructureDefinition-ModelICVPVaccineDetails.json	1884	7	0	0	0	0	0	12	0	10	0	0	0	0	0	0	0	0	0	0	57	119	0	0	0	0	3	0	0
+fsh-generated/resources/StructureDefinition-ModelVaccineDetails.json	6310	8	0	0	0	0	0	0	0	11	0	0	0	0	0	0	0	0	0	0	122	119	0	0	0	0	3	0	0
+fsh-generated/resources/StructureDefinition-doseNumberCodeableConcept.json	1165	6	0	0	0	0	0	5	0	40	0	0	0	0	0	0	0	0	0	0	51	94	0	0	0	0	8	0	0
+fsh-generated/resources/ValueSet-DVCRelationshipStatus.json	449	7	1	0	0	1	0	0	0	4	0	0	0	0	0	0	0	0	0	0	13	74	0	0	0	0	0	0	0
+fsh-generated/resources/ValueSet-DVCVaccines.json	13923	8	0	0	0	0	0	0	1	15	0	0	0	0	0	0	0	0	0	0	99	255	0	0	0	0	5	0	0
+fsh-generated/resources/ValueSet-DiseaseTargeted.json	2686	7	0	0	0	0	0	0	0	7	0	0	0	0	0	0	0	0	0	0	28	80	0	0	0	0	1	0	0
+fsh-generated/resources/ValueSet-ICVPDiseaseTargeted.json	613	7	0	0	0	0	0	0	0	5	0	0	0	1	0	0	0	0	0	0	14	48	0	0	0	0	0	0	0
+fsh-generated/resources/ValueSet-ICVPVaccineCodes.json	2481	7	0	0	0	0	0	0	0	5	0	0	0	0	0	0	0	0	0	0	27	77	0	0	0	0	3	0	0
+fsh-generated/resources/ValueSet-doseNumber.json	353	6	0	0	0	0	0	0	1	5	0	0	0	0	0	0	0	0	0	0	12	56	0	0	0	0	1	0	0
+input/maps/IcvpLMToIPS.map	8610	19	0	0	0	0	0	0	4	23	0	0	0	0	0	0	0	1	0	0	155	31	0	0	0	0	15	0	1
+/fsh-generated/resources/Binary-IVCP123455.json	947	-	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	13	9	0	0	0	0	0	0	0

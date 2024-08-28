@@ -1,0 +1,273 @@
+ICVP : Validation Results
+=========================================
+
+err = 154, warn = 43, info = 10
+$--
+Generated $--. FHIR version $-- for smart.who.int.icvp#$-- (canonical = http://smart.who.int/icvp)
+ Build Errors : 6 / 5 / 0
+ /github/workspace/fsh-generated/resources/Binary-IVCP123455 : 6 / 0 / 1
+ /github/workspace/fsh-generated/resources/CodeSystem-DVCRelationshipStatus : 0 / 2 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-doseNumber : 0 / 3 / 2
+ /github/workspace/fsh-generated/resources/ImplementationGuide-smart.who.int.icvp : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-DVCModel : 3 / 3 / 8
+ /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-ICVPModel : 3 / 2 / 8
+ /github/workspace/fsh-generated/resources/StructureDefinition-DVC-ImmunizationUvIps : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-DVCBundle : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-DVCComposition : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-DVCIPS : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-DVCIPSComposition : 1 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-DVCPatient : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-DVCPayload : 5 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-ICVPEvent : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-ModelDVC : 0 / 0 / 6
+ /github/workspace/fsh-generated/resources/StructureDefinition-ModelICVP : 0 / 0 / 6
+ /github/workspace/fsh-generated/resources/StructureDefinition-ModelICVPVaccineDetails : 0 / 0 / 6
+ /github/workspace/fsh-generated/resources/StructureDefinition-ModelVaccineDetails : 2 / 0 / 6
+ /github/workspace/fsh-generated/resources/StructureDefinition-doseNumberCodeableConcept : 0 / 3 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-DVCRelationshipStatus : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-DVCVaccines : 0 / 2 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-DiseaseTargeted : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-ICVPDiseaseTargeted : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-ICVPVaccineCodes : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-doseNumber : 0 / 2 / 1
+ /github/workspace/input/maps/IcvpLMToIPS : 133 / 11 / 1
+</table>
+== n/a ==
+ERROR: Unable to find ImplementationGuide.definition.resource.name for the resource StructureMap/IcvpLMToIPS.  Name is mandatory if it cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureMap/IcvpLMToIPS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+ERROR: /github/workspace/output/Questionnaire-Questionnaire-DVCModel-form.html: unexpected non-end of element null::div  at line 343 column 237
+ERROR: /github/workspace/output/Questionnaire-Questionnaire-ICVPModel-form.html: unexpected non-end of element null::div  at line 343 column 238
+ERROR: /github/workspace/output/StructureDefinition-DVC-ImmunizationUvIps-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/ul/li/a at Line 479, column 6: The link './ValueSet-target-diseases-uv-ips.html' for "targetDiseases-uv-ips" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-DVC-ImmunizationUvIps-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/ul/li/a at Line 786, column 30: The link './ValueSet-target-diseases-uv-ips.html' for "targetDiseases-uv-ips" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-DVC-ImmunizationUvIps-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/ul/li/a at Line 824, column 30: The link './ValueSet-target-diseases-uv-ips.html' for "targetDiseases-uv-ips" cannot be resolved
+WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+== fsh-generated/resources/Binary-IVCP123455.json ==
+ERROR: Binary/IVCP123455: ModelICVP.vaccineDetails[0].doseNumber: No code provided, and a code is required from the value set 'Dose Number' (http://smart.who.int/icvp/ValueSet/doseNumber|0.1.0)
+ERROR: Binary/IVCP123455: ModelICVP.vaccineDetails[0].vaccineClassification: No code provided, and a code is required from the value set 'ICVP - Vaccine Codes' (http://smart.who.int/icvp/ValueSet/ICVPVaccineCodes|0.1.0)
+ERROR: Binary/IVCP123455: ModelICVP.vaccineDetails[0].clinicianName: Constraint failed: mustHaveIssuerOrClinician: 'Either issuer or clinicianName must be present' (defined in http://smart.who.int/icvp/StructureDefinition/ModelVaccineDetails)
+ERROR: Binary/IVCP123455: ModelICVP.vaccineDetails[1].doseNumber: No code provided, and a code is required from the value set 'Dose Number' (http://smart.who.int/icvp/ValueSet/doseNumber|0.1.0)
+ERROR: Binary/IVCP123455: ModelICVP.vaccineDetails[1].vaccineClassification: No code provided, and a code is required from the value set 'ICVP - Vaccine Codes' (http://smart.who.int/icvp/ValueSet/ICVPVaccineCodes|0.1.0)
+ERROR: Binary/IVCP123455: ModelICVP.vaccineDetails[1].clinicianName: Constraint failed: mustHaveIssuerOrClinician: 'Either issuer or clinicianName must be present' (defined in http://smart.who.int/icvp/StructureDefinition/ModelVaccineDetails)
+== fsh-generated/resources/CodeSystem-DVCRelationshipStatus.json ==
+INFORMATION: CodeSystem/DVCRelationshipStatus: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/DVCRelationshipStatus: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/DVCRelationshipStatus: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-doseNumber.json ==
+WARNING: CodeSystem/doseNumber: CodeSystem: Constraint failed: csd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation'
+INFORMATION: CodeSystem/doseNumber: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/doseNumber: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/doseNumber: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/ImplementationGuide-smart.who.int.icvp.json ==
+== fsh-generated/resources/Questionnaire-Questionnaire-DVCModel.json ==
+WARNING: Questionnaire/Questionnaire-DVCModel: Questionnaire.contained[0]/*ValueSet/v2-0001*/: Constraint failed: vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation'
+WARNING: Questionnaire/Questionnaire-DVCModel: Questionnaire.contained[3]/*ValueSet/DVCVaccines*/.compose.include[0].concept[96].display: value should not start or finish with whitespace 'Varicella, live attenuated \u00a0 \u00a0'
+WARNING: Questionnaire/Questionnaire-DVCModel: Questionnaire.contained[4]/*ValueSet/doseNumber*/: Constraint failed: vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation'
+ERROR: Questionnaire/Questionnaire-DVCModel: Questionnaire.item[3].answerValueSet: Canonical URL 'http://hl7.org/fhir/ValueSet/country' does not resolve
+ERROR: Questionnaire/Questionnaire-DVCModel: Questionnaire.contained[0]: The contained resource 'v2-0001' is not referenced to from elsewhere in the containing resource nor does it refer to the containing resource (dom-3)
+ERROR: Questionnaire/Questionnaire-DVCModel: Questionnaire.contained[1]: The contained resource 'v3-Country' is not referenced to from elsewhere in the containing resource nor does it refer to the containing resource (dom-3)
+== fsh-generated/resources/Questionnaire-Questionnaire-ICVPModel.json ==
+WARNING: Questionnaire/Questionnaire-ICVPModel: Questionnaire.contained[0]/*ValueSet/v2-0001*/: Constraint failed: vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation'
+WARNING: Questionnaire/Questionnaire-ICVPModel: Questionnaire.contained[4]/*ValueSet/doseNumber*/: Constraint failed: vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation'
+ERROR: Questionnaire/Questionnaire-ICVPModel: Questionnaire.item[3].answerValueSet: Canonical URL 'http://hl7.org/fhir/ValueSet/country' does not resolve
+ERROR: Questionnaire/Questionnaire-ICVPModel: Questionnaire.contained[0]: The contained resource 'v2-0001' is not referenced to from elsewhere in the containing resource nor does it refer to the containing resource (dom-3)
+ERROR: Questionnaire/Questionnaire-ICVPModel: Questionnaire.contained[1]: The contained resource 'v3-Country' is not referenced to from elsewhere in the containing resource nor does it refer to the containing resource (dom-3)
+== fsh-generated/resources/StructureDefinition-DVC-ImmunizationUvIps.json ==
+WARNING: StructureDefinition.where(url = 'http://smart.who.int/icvp/StructureDefinition/DVC-ImmunizationUvIps'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-DVCBundle.json ==
+WARNING: StructureDefinition.where(url = 'http://smart.who.int/icvp/StructureDefinition/DVCBundle'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-DVCComposition.json ==
+WARNING: StructureDefinition.where(url = 'http://smart.who.int/icvp/StructureDefinition/DVCComposition'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-DVCIPS.json ==
+WARNING: StructureDefinition.where(url = 'http://smart.who.int/icvp/StructureDefinition/DVCIPS'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-DVCIPSComposition.json ==
+ERROR: StructureDefinition/DVCIPSComposition: StructureDefinition.snapshot.element[304].pattern.ofType(CodeableConcept).coding[0].code: Unknown code '104605-1' in the CodeSystem 'http://loinc.org' version '2.77'
+WARNING: StructureDefinition.where(url = 'http://smart.who.int/icvp/StructureDefinition/DVCIPSComposition'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-DVCPatient.json ==
+WARNING: StructureDefinition.where(url = 'http://smart.who.int/icvp/StructureDefinition/DVCPatient'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-DVCPayload.json ==
+ERROR: StructureDefinition.where(url = 'http://smart.who.int/icvp/StructureDefinition/DVC'): Conformance resource /github/workspace/fsh-generated/resources/StructureDefinition-DVCPayload.json - the canonical URL (http://smart.who.int/icvp/StructureDefinition/DVCPayload) does not match the URL (http://smart.who.int/icvp/StructureDefinition/DVC)
+ERROR: StructureDefinition.url: Resource id/url mismatch: DVCPayload/http://smart.who.int/icvp/StructureDefinition/DVC
+ERROR: StructureDefinition/DVCPayload: StructureDefinition.snapshot.element[20].constraint[0]: Error in constraint 'mustHaveIsOrCn' with expression 'is.exists() or cn.exists()': Error evaluating FHIRPath expression: The name 'is' is not valid for any of the possible types: [http://hl7.org/fhir/StructureDefinition/string] (@char 3)
+ERROR: StructureDefinition/DVCPayload: StructureDefinition.snapshot.element[21].constraint[0]: Error in constraint 'mustHaveIsOrCn' with expression 'is.exists() or cn.exists()': Error evaluating FHIRPath expression: The name 'is' is not valid for any of the possible types: [http://hl7.org/fhir/StructureDefinition/string] (@char 3)
+ERROR: /github/workspace/fsh-generated/resources/StructureDefinition-DVCPayload: URL Mismatch http://smart.who.int/icvp/StructureDefinition/DVCPayload vs http://smart.who.int/icvp/StructureDefinition/DVC
+== fsh-generated/resources/StructureDefinition-ICVPEvent.json ==
+== fsh-generated/resources/StructureDefinition-ModelDVC.json ==
+INFORMATION: StructureDefinition/ModelDVC: StructureDefinition.extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablestructuredefinition|1.0.0-snapshot (this may not be a problem, but you should check that it's not intended to match a slice)
+INFORMATION: StructureDefinition/ModelDVC: StructureDefinition.extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablestructuredefinition|1.0.0-snapshot (this may not be a problem, but you should check that it's not intended to match a slice)
+== fsh-generated/resources/StructureDefinition-ModelICVP.json ==
+INFORMATION: StructureDefinition/ModelICVP: StructureDefinition.extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablestructuredefinition|1.0.0-snapshot (this may not be a problem, but you should check that it's not intended to match a slice)
+INFORMATION: StructureDefinition/ModelICVP: StructureDefinition.extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablestructuredefinition|1.0.0-snapshot (this may not be a problem, but you should check that it's not intended to match a slice)
+== fsh-generated/resources/StructureDefinition-ModelICVPVaccineDetails.json ==
+INFORMATION: StructureDefinition/ModelICVPVaccineDetails: StructureDefinition.extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablestructuredefinition|1.0.0-snapshot (this may not be a problem, but you should check that it's not intended to match a slice)
+INFORMATION: StructureDefinition/ModelICVPVaccineDetails: StructureDefinition.extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablestructuredefinition|1.0.0-snapshot (this may not be a problem, but you should check that it's not intended to match a slice)
+== fsh-generated/resources/StructureDefinition-ModelVaccineDetails.json ==
+INFORMATION: StructureDefinition/ModelVaccineDetails: StructureDefinition.extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablestructuredefinition|1.0.0-snapshot (this may not be a problem, but you should check that it's not intended to match a slice)
+ERROR: StructureDefinition/ModelVaccineDetails: StructureDefinition.snapshot.element[6].constraint[0]: Error in constraint 'mustHaveIssuerOrClinician' with expression 'issuer.exists() or clinicianName.exists()': Error evaluating FHIRPath expression: The name 'issuer' is not valid for any of the possible types: [http://hl7.org/fhir/StructureDefinition/string] (@char 3)
+ERROR: StructureDefinition/ModelVaccineDetails: StructureDefinition.snapshot.element[7].constraint[0]: Error in constraint 'mustHaveIssuerOrClinician' with expression 'issuer.exists() or clinicianName.exists()': Error evaluating FHIRPath expression: The name 'issuer' is not valid for any of the possible types: [http://hl7.org/fhir/StructureDefinition/Reference] (@char 3)
+INFORMATION: StructureDefinition/ModelVaccineDetails: StructureDefinition.extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablestructuredefinition|1.0.0-snapshot (this may not be a problem, but you should check that it's not intended to match a slice)
+== fsh-generated/resources/StructureDefinition-doseNumberCodeableConcept.json ==
+WARNING: StructureDefinition/doseNumberCodeableConcept: StructureDefinition: Constraint failed: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation'
+WARNING: StructureDefinition/doseNumberCodeableConcept: StructureDefinition.context[0]: Review the extension type for doseNumberCodeableConcept: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+WARNING: StructureDefinition.where(url = 'http://smart.who.int/icvp/StructureDefinition/doseNumberCodeableConcept'): The Implementation Guide contains no examples for this extension
+== fsh-generated/resources/ValueSet-DVCRelationshipStatus.json ==
+WARNING: ValueSet/DVCRelationshipStatus: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-DVCVaccines.json ==
+WARNING: ValueSet/DVCVaccines: ValueSet.compose.include[0].concept[96].display: value should not start or finish with whitespace 'Varicella, live attenuated \u00a0 \u00a0'
+WARNING: ValueSet/DVCVaccines: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-DiseaseTargeted.json ==
+WARNING: ValueSet/DiseaseTargeted: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-ICVPDiseaseTargeted.json ==
+WARNING: ValueSet/ICVPDiseaseTargeted: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-ICVPVaccineCodes.json ==
+WARNING: ValueSet/ICVPVaccineCodes: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-doseNumber.json ==
+WARNING: ValueSet/doseNumber: ValueSet: Constraint failed: vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation'
+WARNING: ValueSet/doseNumber: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== input/maps/IcvpLMToIPS.map ==
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[0].rule[0].name: id value 'set ips type' is not valid
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[0].rule[1].name: id value 'set id' is not valid
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[0].rule[2].name: id value 'set entries' is not valid
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[0].rule[2].rule[0].name: id value 'set timestamp' is not valid
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[0].rule[2].rule[1].name: id value 'map composition resource' is not valid
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[0].rule[2].rule[1].rule[1].name: id value 'map patient resource' is not valid
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[0].rule[2].rule[1].rule[1].rule[0].name: id value 'create patient' is not valid
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[0].rule[2].rule[1].rule[1].rule[1].name: id value 'set patient as entry' is not valid
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[1].rule[0].name: id value 'set id' is not valid
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[1].rule[1].name: id value 'set status' is not valid
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[1].rule[2].name: id value 'set composition date' is not valid
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[1].rule[3].name: id value 'set title' is not valid
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[1].rule[4].name: id value 'set type' is not valid
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[1].rule[5].name: id value 'set subject' is not valid
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[1].rule[5].rule[0].name: id value 'set subject' is not valid
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[1].rule[6].name: id value 'create medication' is not valid
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[1].rule[7].name: id value 'create allergies' is not valid
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[1].rule[8].name: id value 'create problems' is not valid
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[1].rule[9].name: id value 'create immunizations' is not valid
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[2].rule[0].name: id value 'set patient id' is not valid
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[2].rule[1].name: id value 'Set name' is not valid
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[2].rule[1].rule[0].name: id value 'Copy name' is not valid
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[2].rule[2].name: id value 'set date of birth' is not valid
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[2].rule[3].name: id value 'set sex' is not valid
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[2].rule[4].name: id value 'set national identifier' is not valid
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[2].rule[5].name: id value 'set guardian name' is not valid
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[2].rule[5].rule[0].name: id value 'copy name' is not valid
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[3].rule[0].name: id value 'set medication id' is not valid
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[3].rule[1].name: id value 'set medication title' is not valid
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[3].rule[2].name: id value 'set code' is not valid
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[3].rule[3].name: id value 'set code' is not valid
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[4].rule[0].name: id value 'set allergy id' is not valid
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[4].rule[1].name: id value 'set allergy title' is not valid
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[4].rule[2].name: id value 'set code' is not valid
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[4].rule[3].name: id value 'set code' is not valid
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[5].rule[0].name: id value 'set problems id' is not valid
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[5].rule[1].name: id value 'set problem title' is not valid
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[5].rule[2].name: id value 'set code' is not valid
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[5].rule[3].name: id value 'set code' is not valid
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[6].rule[0].rule[0].name: id value 'set immunizations id' is not valid
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[6].rule[0].rule[1].name: id value 'set Immunization title' is not valid
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[6].rule[0].rule[2].name: id value 'set code' is not valid
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[6].rule[0].rule[3].name: id value 'set immz' is not valid
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[7].rule[0].name: id value 'set status' is not valid
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[7].rule[1].name: id value 'set vaccine code' is not valid
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[7].rule[2].name: id value 'set batchNo' is not valid
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[7].rule[3].name: id value 'set protocol applied' is not valid
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[7].rule[3].rule[0].name: id value 'set dose no' is not valid
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[7].rule[3].rule[0].rule[0].name: id value 'set dose No' is not valid
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[7].rule[4].name: id value 'set subject' is not valid
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[8].rule[0].name: id value 'Copy use' is not valid
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[8].rule[1].name: id value 'Copy text' is not valid
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[8].rule[2].name: id value 'Copy family' is not valid
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[8].rule[3].name: id value 'Copy given' is not valid
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[8].rule[4].name: id value 'Copy prefix' is not valid
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[8].rule[5].name: id value 'Copy suffix' is not valid
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[8].rule[6].name: id value 'copy period' is not valid
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[8].rule[6].rule[0].name: id value 'Copy period' is not valid
+WARNING: StructureMap/IcvpLMToIPS: StructureMap.group[0].input[0]: The type ICVPLogicalModel which maps to the canonical URL http://worldhealthorganization.github.io/smart/StructureDefinition/ModelICVP is not known, so the paths cannot be validated
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[0].rule[0]: The name set ips type is not valid
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[0].rule[1]: The name set id is not valid
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[0].rule[2]: The name set entries is not valid
+WARNING: StructureMap/IcvpLMToIPS: StructureMap.group[0].rule[2].target[0]: Transform evaluate not checked yet
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[0].rule[2].rule[0]: The name set timestamp is not valid
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[0].rule[2].rule[1]: The name map composition resource is not valid
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[0].rule[2].rule[1].rule[0].target[0]: The target context 'lm' is not known at this point
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[0].rule[2].rule[1].rule[1]: The name map patient resource is not valid
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[0].rule[2].rule[1].rule[1].rule[0]: The name create patient is not valid
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[0].rule[2].rule[1].rule[1].rule[0].target[0]: The target context 'lm' is not known at this point
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[0].rule[2].rule[1].rule[1].rule[1]: The name set patient as entry is not valid
+WARNING: StructureMap/IcvpLMToIPS: StructureMap.group[1].input[0]: The type ICVPLogicalModel which maps to the canonical URL http://worldhealthorganization.github.io/smart/StructureDefinition/ModelICVP is not known, so the paths cannot be validated
+WARNING: StructureMap/IcvpLMToIPS: StructureMap.group[1].input[3]: Group LmToComposition parameter timestamp has no type, so the paths cannot be validated
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[1].rule[0]: The name set id is not valid
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[1].rule[1]: The name set status is not valid
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[1].rule[2]: The name set composition date is not valid
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[1].rule[3]: The name set title is not valid
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[1].rule[4]: The name set type is not valid
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[1].rule[5]: The name set subject is not valid
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[1].rule[5].rule[0]: The name set subject is not valid
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[1].rule[6]: The name create medication is not valid
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[1].rule[7]: The name create allergies is not valid
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[1].rule[8]: The name create problems is not valid
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[1].rule[9]: The name create immunizations is not valid
+WARNING: StructureMap/IcvpLMToIPS: StructureMap.group[2].input[0]: The type ICVPLogicalModel which maps to the canonical URL http://worldhealthorganization.github.io/smart/StructureDefinition/ModelICVP is not known, so the paths cannot be validated
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[2].rule[0]: The name set patient id is not valid
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[2].rule[1]: The name Set name is not valid
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[2].rule[1].rule[0]: The name Copy name is not valid
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[2].rule[1].rule[0].target[0]: The target context 'sourceName' is not known at this point
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[2].rule[2]: The name set date of birth is not valid
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[2].rule[3]: The name set sex is not valid
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[2].rule[4]: The name set national identifier is not valid
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[2].rule[5]: The name set guardian name is not valid
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[2].rule[5].rule[0]: The name copy name is not valid
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[2].rule[5].rule[0].target[0]: The target context 'guardian' is not known at this point
+WARNING: StructureMap/IcvpLMToIPS: StructureMap.group[2].rule[5].rule[0].dependent[0]: The group humanNameToHumanName has already been used with different parameters, so the type checking may be incorrect (other = [source null sourceName, target HumanName targetName]; this = [source null sourceName, target HumanName targetName])
+WARNING: StructureMap/IcvpLMToIPS: StructureMap.group[3].input[0]: The type ICVPLogicalModel which maps to the canonical URL http://worldhealthorganization.github.io/smart/StructureDefinition/ModelICVP is not known, so the paths cannot be validated
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[3].rule[0]: The name set medication id is not valid
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[3].rule[1]: The name set medication title is not valid
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[3].rule[1].target[0]: The target path med.title refers to the path BackboneElement.title which is unknown
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[3].rule[2]: The name set code is not valid
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[3].rule[2].target[5]: The target path med.code refers to the path BackboneElement.code which is unknown
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[3].rule[3]: The name set code is not valid
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[3].rule[3].target[5]: The target path med.emptyReason refers to the path BackboneElement.emptyReason which is unknown
+WARNING: StructureMap/IcvpLMToIPS: StructureMap.group[4].input[0]: The type ICVPLogicalModel which maps to the canonical URL http://worldhealthorganization.github.io/smart/StructureDefinition/ModelICVP is not known, so the paths cannot be validated
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[4].rule[0]: The name set allergy id is not valid
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[4].rule[1]: The name set allergy title is not valid
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[4].rule[1].target[0]: The target path all.title refers to the path BackboneElement.title which is unknown
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[4].rule[2]: The name set code is not valid
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[4].rule[2].target[5]: The target path all.code refers to the path BackboneElement.code which is unknown
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[4].rule[3]: The name set code is not valid
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[4].rule[3].target[5]: The target path all.emptyReason refers to the path BackboneElement.emptyReason which is unknown
+WARNING: StructureMap/IcvpLMToIPS: StructureMap.group[5].input[0]: The type ICVPLogicalModel which maps to the canonical URL http://worldhealthorganization.github.io/smart/StructureDefinition/ModelICVP is not known, so the paths cannot be validated
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[5].rule[0]: The name set problems id is not valid
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[5].rule[1]: The name set problem title is not valid
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[5].rule[1].target[0]: The target path prb.title refers to the path BackboneElement.title which is unknown
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[5].rule[2]: The name set code is not valid
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[5].rule[2].target[5]: The target path prb.code refers to the path BackboneElement.code which is unknown
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[5].rule[3]: The name set code is not valid
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[5].rule[3].target[5]: The target path prb.emptyReason refers to the path BackboneElement.emptyReason which is unknown
+WARNING: StructureMap/IcvpLMToIPS: StructureMap.group[6].input[0]: The type ICVPLogicalModel which maps to the canonical URL http://worldhealthorganization.github.io/smart/StructureDefinition/ModelICVP is not known, so the paths cannot be validated
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[6].rule[0].rule[0]: The name set immunizations id is not valid
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[6].rule[0].rule[1]: The name set Immunization title is not valid
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[6].rule[0].rule[2]: The name set code is not valid
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[6].rule[0].rule[3]: The name set immz is not valid
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[7].input[0]: The type vaccineDetails is not known, so the paths cannot be validated
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[7].rule[0]: The name set status is not valid
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[7].rule[1]: The name set vaccine code is not valid
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[7].rule[2]: The name set batchNo is not valid
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[7].rule[3]: The name set protocol applied is not valid
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[7].rule[3].rule[0]: The name set dose no is not valid
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[7].rule[3].rule[0].rule[0]: The name set dose No is not valid
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[7].rule[3].rule[0].rule[0].target[0]: The target path protocol.doseNumberString refers to the path Immunization.protocolApplied.doseNumberString which is unknown
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[7].rule[4]: The name set subject is not valid
+WARNING: StructureMap/IcvpLMToIPS: StructureMap.group[8].input[0]: Group humanNameToHumanName parameter sourceName has no type, so the paths cannot be validated
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[8].rule[0]: The name Copy use is not valid
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[8].rule[1]: The name Copy text is not valid
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[8].rule[2]: The name Copy family is not valid
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[8].rule[3]: The name Copy given is not valid
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[8].rule[4]: The name Copy prefix is not valid
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[8].rule[5]: The name Copy suffix is not valid
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[8].rule[6]: The name copy period is not valid
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[8].rule[6].rule[0]: The name Copy period is not valid
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[8].rule[6].rule[0].target[0]: The target context 'sourcePeriod' is not known at this point
+ERROR: StructureMap/IcvpLMToIPS: StructureMap.group[8].rule[6].rule[0].dependent[0]: The group periodToPeriod could not be resolved
